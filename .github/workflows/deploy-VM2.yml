@@ -32,7 +32,7 @@ jobs:
 
       # Azure CLI を使用し ARM テンプレートから仮想マシンを展開
       - name: Deploy ARM Template
-        uses: azure/CLI@v1
+        uses: azure/CLI@v1 
         with:
           # {parameter file} には先の手順で作成したパラメーター ファイル名を指定
           inlineScript: |
