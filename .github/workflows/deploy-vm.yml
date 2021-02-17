@@ -24,7 +24,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      # 登録したシークレットで Azure へログイン
+      # 登録したシークレットで Azure へログイン 
       - name: Login to Azure
         uses: azure/login@v1
         with:
